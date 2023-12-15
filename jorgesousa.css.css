@@ -4,10 +4,13 @@ margin: 0;
 }
 
 body {
-    
-    
-    
-    
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
 }
 
 #skelet {
@@ -15,7 +18,7 @@ body {
     background-color: rgb(222, 206, 135);
     font-family: 'Cinzel', serif;
     max-width: 500px;
-    align-items: auto;
+    
 }
 
 .icon {
@@ -37,16 +40,24 @@ body {
     font-size: bold ;
 }
 
-.interaction{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+ul{ 
     
 }
 
-li {
+.interaction{
+    max-width: 80%;
+    text-align: center;
+    padding-inline-start: 10%;
+}
+
+.botoes {
     
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    /* text-align: center; */
+    transition: backgorund-color 0.8s ease, color 0.5s ease, transform 0.5s ease;
     font-size: 24px;
     color: rgb(222, 206, 135);
     list-style: none;
@@ -59,22 +70,11 @@ li {
    
 }
 
-.botoes {
-    
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    max-width: 80%;
-    text-align: center;
-    transition: backgorund-color 1s ease, color 0.5s ease, transform 0.5s ease;
-   
-}
-
 .botoes:hover{
     
     background-color: rgb(39, 78, 39);
     transform: scale(1.1) ;
-    transform: rotate3d(360);
+    
 }
 
 
