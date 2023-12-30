@@ -17,7 +17,8 @@ body {
     text-align: center;
     background-color: rgb(222, 206, 135);
     font-family: 'Cinzel', serif;
-    max-height: 900px, cover;
+    max-widht: 500px;
+    height: cover;
     
 }
 
