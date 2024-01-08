@@ -1,0 +1,95 @@
+html {
+    padding: 0;
+    margin: 0;
+    }
+    
+    body {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display:inline-flexbox;
+        justify-content: center;
+        background-color: black;
+    
+    
+    }
+    
+    #skelet {
+        text-align: center;
+        background-color: rgb(3, 3, 3);
+        font-family: 'Cinzel', serif;
+        max-widht: 500px;
+        height: cover;
+        
+    }
+    
+    .icon {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        transition: backgorund-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    }
+    .icon:hover{
+        transform: scale(1.2);
+    }
+    
+    #perfil {
+        max-height: 200px;
+        border-radius: 100px;
+    }
+    
+    .text {
+        color: rgb(255, 255, 255);
+        font-size: bold ;
+    }
+    
+    ul{ 
+        
+    }
+    
+    .interaction{
+        max-width: 80%;
+        text-align: center;
+        padding-inline-start: 10%;
+    }
+    
+    .botoes {
+        
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        /* text-align: center; */
+        transition: backgorund-color 0.8s ease, color 0.5s ease, transform 0.5s ease;
+        font-size: 24px;
+        color: rgb(222, 206, 135);
+        list-style: none;
+        background-color : rgb(6, 20, 83);
+        border-radius: 50px;
+        margin-top: 15px;
+        border: 2px;
+        border-color: rgba(0, 0, 0, 0.493);
+        border-style: solid;
+       
+    }
+    
+    .botoes:hover{
+        
+        background-color: rgb(4, 128, 211);
+        transform: scale(1.1) ;
+        
+    }
+    
+    
+    #social-icon{
+        display: inline-block;
+        max-width: 20px;
+        align-items: stretch;
+    }
+    
+    a{
+        text-decoration: none;
+        color:  rgb(222, 206, 135);
+        display: block;
+    }
+    
+    
