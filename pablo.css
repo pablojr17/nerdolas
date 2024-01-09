@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100.200.300.400.500.600.700.800.900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: #010615;
+}
+header {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background: #060c21;
+  margin: 40px;
+  padding: 40px 0;
+}
+
+.box:berofe {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: rgb(202, 128, 128);
+  z-index: -1;
+}
+.box:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: rgb(255, 255, 255);
+  z-index: -2;
+  filter: blur(40px);
+}
+
+.box:nth-child(1):after {
+  background: linear-gradient(255deg, #772aff, #010615, #2196f3);
+}
+
+.box:nth-child(2):after {
+  background: linear-gradient(255deg, #772aff, #010615, #2196f3);
+}
+
+.box:nth-child(3):after {
+  background: linear-gradient(255deg, #772aff, #010615, #2196f3);
+}
+/* .box .glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: block;
+  background: rgb(255, 255, 255, 0.1);
+  pointer-events: none;
+} */
+
+.box .content {
+  padding: 0 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+h2 {
+  text-align: center;
+}
+.content > p {
+  font-size: 20px;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h2.titlle {
+}
+
+footer {
+  background: rgb(255, 255, 255, 0.1);
+}
+
+footer .foo {
+  display: flex;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  margin-right: 20px;
+  width: 45px;
+  height: 45px;
+}
+
+footer p {
+  color: rgb(235, 225, 225);
+  text-align: center;
+}
